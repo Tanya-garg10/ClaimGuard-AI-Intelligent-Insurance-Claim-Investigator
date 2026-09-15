@@ -13,8 +13,6 @@
 
 </div>
 
----
-
 ## 📋 Overview
 
 **ClaimGuard AI** is a forensic-grade insurance claim investigation platform built for SIU (Special Investigation Unit) examiners and claims adjudicators. It leverages **Google Gemini AI** to perform intelligent cross-document analysis, detect fraud signals, reconcile financial sub-limits, and generate audit-ready dossiers — all in a sleek, real-time workspace.
@@ -24,8 +22,6 @@ The demo investigates Claim **CLM-20481** (Aarav Sharma — ₹4,85,000 health c
 - ⚠️ **48-hour chronological contradiction** — surgery date (12 AUG) precedes recorded admission (14 AUG)
 - 💰 **Policy Clause 4.3 sublimit breach** — room rent billed at ₹14,000/day vs. ₹8,000/day cap (₹36,000 excess)
 - 🔬 **Missing histopathology report** — mandatory under Clause 6.2 before disbursement
-
----
 
 ## ✨ Features
 
@@ -43,8 +39,6 @@ The demo investigates Claim **CLM-20481** (Aarav Sharma — ₹4,85,000 health c
 | 🧾 **Financial Reconciliation** | Sub-limit adjudication table with clause-by-clause breakdown |
 | ➕ **New Claim Ingestion** | Modal form to load new claims into the investigation queue |
 
----
-
 ## 🛠️ Tech Stack
 
 - **Frontend:** React 19, TypeScript 5.8, Vite 6
@@ -55,8 +49,6 @@ The demo investigates Claim **CLM-20481** (Aarav Sharma — ₹4,85,000 health c
 - **Markdown:** `react-markdown` (for bilingual forensic findings)
 - **PDF Export:** `jsPDF`
 - **Animation:** `motion` (Framer Motion)
-
----
 
 ## 🚀 Getting Started
 
@@ -84,8 +76,6 @@ npm run dev
 ```
 
 The app will be running at **[http://localhost:3000](http://localhost:3000)**
-
----
 
 ## 📁 Project Structure
 
@@ -124,8 +114,6 @@ claimguard-ai/
 └── package.json
 ```
 
----
-
 ## 🧭 Navigation
 
 | Tab | Description |
@@ -136,8 +124,6 @@ claimguard-ai/
 | **Evidence** | Document viewer, relational evidence graph & verification matrix |
 | **Reports** | Formal SIU Audit Memorandum with financial reconciliation table |
 
----
-
 ## 🔐 Environment Variables
 
 | Variable | Required | Description |
@@ -146,8 +132,6 @@ claimguard-ai/
 | `APP_URL` | Optional | Deployment URL (auto-injected on Cloud Run) |
 
 > **Security Note:** Never commit your actual API key. The `.env.local` file is gitignored by default.
-
----
 
 ## 📜 Scripts
 
@@ -158,15 +142,11 @@ npm run start    # Run production build
 npm run lint     # TypeScript type check
 ```
 
----
-
 ## 👩‍💻 Author
 
 **Tanya Garg** — [GitHub @Tanya-garg10](https://github.com/Tanya-garg10)
 
 Built with ❤️ using **Google Gemini AI** and **React**
-
----
 
 <div align="center">
 <sub>ClaimGuard AI — Forensic Intelligence for the Modern Insurance Industry</sub>
