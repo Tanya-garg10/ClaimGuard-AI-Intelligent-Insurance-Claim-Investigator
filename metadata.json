@@ -1,0 +1,6 @@
+{
+  "name": "ClaimGuard AI",
+  "description": "Intelligent insurance claim investigation platform turning scattered claim evidence into explainable investigation insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
